@@ -6,9 +6,9 @@ public class Numbers {
 
         Scanner scanner = new Scanner(System.in);
 
-        Integer num1 = 0;
-        Integer num2 = 0;
-        float total = 0;
+        Integer num1;
+        Integer num2;
+        float total;
 
         num1 = scanner.nextInt();
         num2 = scanner.nextInt();
