@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Hello {
 
 
-    static void main (String[] args){
+    static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 

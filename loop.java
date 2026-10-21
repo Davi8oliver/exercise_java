@@ -1,6 +1,6 @@
 public class loop {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         Integer num1 = 67;
         Integer num2 = 0;
@@ -26,9 +26,9 @@ public class loop {
         do {
             IO.println(word);
             i++;
-        }while (i < 10);
+        } while (i < 10);
 
-        for (i = 0; i < 10; i++){
+        for (i = 0; i < 10; i++) {
             IO.println(letra);
         }
 

@@ -1,17 +1,22 @@
+/**
+ * Autor: Davi Lopes
+ * Descrição: Programa para solicitar um número inteiro e calcular e imprimir sua tabuada.
+ */
+
 import java.util.Scanner;
 
 public class Tabuada {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
-        Scanner  scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         int numeroBase;
 
         System.out.println("Digite qual numero vc quer usar como base: ");
         numeroBase = scanner.nextInt();
 
-        for (int  i = 1; i <= 10; i++){
+        for (int i = 1; i <= 10; i++) {
             System.out.printf("%d * %d = %d\n", numeroBase, i, (numeroBase * i));
         }
 
